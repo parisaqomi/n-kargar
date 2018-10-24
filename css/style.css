@@ -15,7 +15,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
-  color: #7f7f7f;
+  color: #424242;
   background: #fff;
   height: 100%;
   position: relative;
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
   font-family: "Varela Round", Arial, sans-serif;
   font-weight: 400;
-  margin: 0 0 30px 0;
+  margin: 0 0 20px 0;
 }
 
 ::-webkit-selection {
@@ -95,126 +95,6 @@ h1, h2, h3, h4, h5, h6, figure {
     height: 1000px;
   }
 }
-#my-header .intro {
-  margin-top: 18em;
-}
-@media screen and (max-width: 768px) {
-  #my-header .intro {
-    margin-top: 7em;
-  }
-}
-@media screen and (max-width: 992px) {
-  #my-header .intro .my-block {
-    display: block;
-  }
-}
-@media screen and (max-width: 768px) {
-  #my-header .intro .btn-hardbound,
-  #my-header .intro .btn-ebook,
-  #my-header .intro .my-block {
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-  }
-}
-@media screen and (max-width: 480px) {
-  #my-header .intro .btn-ebook {
-    display: block;
-    border-bottom: none !important;
-  }
-}
-#my-header .intro h2 {
-  font-size: 24px;
-  line-height: 1.5;
-  color: rgba(255, 255, 255, 0.95);
-  margin-bottom: 3em;
-}
-@media screen and (max-width: 480px) {
-  #my-header .intro h2 {
-    text-align: center;
-  }
-}
-#my-header .intro a {
-  color: rgba(255, 255, 255, 0.95);
-  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
-}
-#my-header .intro a:hover {
-  color: white;
-  text-decoration: none;
-  border-bottom: 2px solid white;
-}
-@media screen and (max-width: 768px) {
-  #my-header .intro a {
-    display: -moz-inline-stack;
-    display: inline-block;
-    zoom: 1;
-    *display: inline;
-    text-align: center;
-  }
-}
-#my-header .intro .btn {
-  border-bottom: none !important;
-  background: #000 !important;
-  border: none;
-  position: relative;
-}
-#my-header .intro .btn:hover {
-  background: #fff !important;
-  color: #000;
-}
-#my-header .intro .btn .price {
-  position: absolute;
-  right: -20px;
-  top: -20px;
-  padding: 4px 15px;
-  background: #52d3aa;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  border-radius: 30px;
-}
-@media screen and (max-width: 480px) {
-  #my-header .intro .btn .price {
-    right: 0;
-  }
-}
-#my-header .my-intro-img {
-  position: relative;
-  bottom: -10em;
-}
-@media screen and (max-width: 768px) {
-  #my-header .my-intro-img {
-    bottom: -2em;
-  }
-}
-#my-header .my-intro-img img {
-  max-width: 480px;
-}
-@media screen and (max-width: 768px) {
-  #my-header .my-intro-img .img-1 {
-    max-width: 380px;
-  }
-}
-@media screen and (max-width: 480px) {
-  #my-header .my-intro-img .img-1 {
-    max-width: 100%;
-  }
-}
-#my-header .my-intro-img .img-2 {
-  position: absolute;
-  top: 5em;
-  right: -3em;
-}
-@media screen and (max-width: 992px) {
-  #my-header .my-intro-img .img-2 {
-    right: -10em;
-  }
-}
-@media screen and (max-width: 768px) {
-  #my-header .my-intro-img img {
-    max-width: 100%;
-  }
-}
 
 #main {
   margin-top: 8em;
@@ -234,12 +114,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 7em 0;
   background: #f2f2f2;
 }
-.my-testimonial .review i {
-  color: #d9d9d9;
-}
-.my-testimonial .review i.colored {
-  color: #FFC12D;
-}
+
 .my-testimonial .testimony-slide {
   text-align: center;
 }
@@ -277,102 +152,10 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
-.review {
-  text-align: center;
-}
-.review .star i {
-  color: #d9d9d9;
-}
-.review .star i.colored {
-  color: #FFC12D;
-}
-.review span {
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: 700;
-  display: block;
-}
-.review figure {
-  margin-bottom: 10px;
-  display: -moz-inline-stack;
-  display: inline-block;
-  zoom: 1;
-  *display: inline;
-}
-.review figure img {
-  width: 90px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-}
-.review blockquote {
-  border: none;
-  margin: 30px auto;
-  position: relative;
-  padding: 0;
-}
-@media screen and (max-width: 992px) {
-  .review blockquote {
-    width: 100%;
-  }
-}
-
-.get-subscribe .form-control {
-  background: rgba(255, 255, 255, 0.4);
-  background: none !important;
-  color: #000;
-  font-size: 16px !important;
-  border: none;
-  width: 100%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
-.get-subscribe .form-control:active, .get-subscribe .form-control:focus {
-  border-bottom: 1px solid black;
-}
-.get-subscribe .form-control::-webkit-input-placeholder {
-  color: #000;
-}
-.get-subscribe .form-control:-moz-placeholder {
-  /* Firefox 18- */
-  color: #000;
-}
-.get-subscribe .form-control::-moz-placeholder {
-  /* Firefox 19+ */
-  color: #000;
-}
-.get-subscribe .form-control:-ms-input-placeholder {
-  color: #000;
-}
-.get-subscribe .form-control:focus {
-  background: rgba(255, 255, 255, 0.7);
-}
-.get-subscribe .btn {
-  height: 54px;
-  border: none !important;
-  background: #52d3aa;
-  color: #fff;
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: 400;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-.get-subscribe .form-inline .form-group {
-  width: 100% !important;
-  margin-bottom: 10px;
-}
-.get-subscribe .form-inline .form-group .form-control {
-  width: 100%;
-}
 
 .my-feature {
   height: 600px;
-  margin-bottom: 10em;
+  margin-bottom: 5em;
   padding-top: 4em;
 }
 .my-feature.last-feature {
@@ -447,26 +230,6 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
-#get-subscribe {
-  padding: 7em 0;
-  background: #f9d623;
-}
-#get-subscribe .my-heading h2 {
-  margin-bottom: 20px;
-}
-#get-subscribe .my-heading p {
-  color: #000;
-  font-size: 18px;
-  line-height: 1.8;
-}
-#get-subscribe .btn {
-  background: #000;
-}
-#get-subscribe .btn:hover, #get-subscribe .btn:active, #get-subscribe .btn:focus {
-  background: #fff;
-  color: #000;
-}
-
 #footer {
   padding: 0.5em 0;
   background: #262626;
@@ -536,4 +299,4 @@ h1, h2, h3, h4, h5, h6, figure {
   opacity: 0;
 }
 
-/*# sourceMappingURL=style.css.map */
+
